@@ -1,0 +1,1 @@
+This directory contains pre-made gerber files. They have not been tested with any PCB fab other than JLCPCB. Use at your own risk! It is recommended to export your own gerbers and ensure they match your fab's specs.
