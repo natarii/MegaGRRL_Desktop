@@ -11981,11 +11981,11 @@ design rules under a new name.</description>
 <attribute name="POPULARITY" value="7" x="110.49" y="25.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="196.85" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="IC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74HC595N" x="113.03" y="64.135" smashed="yes">
+<element name="IC2" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74HCT595N" x="113.03" y="64.135" smashed="yes">
 <attribute name="NAME" x="102.87" y="60.96" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="113.03" y="64.135" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74HC595N" x="113.03" y="75.565" smashed="yes">
+<element name="IC3" library="74xx-eu" library_urn="urn:adsk.eagle:library:85" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="74HCT595N" x="113.03" y="75.565" smashed="yes">
 <attribute name="NAME" x="102.87" y="70.485" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="0" x="113.03" y="75.565" size="1.778" layer="27" display="off"/>
 </element>
