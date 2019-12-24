@@ -8,4 +8,4 @@ The portable and desktop MegaGRRL versions share a single codebase, contained in
 ## PCB manufacturing considerations
 The board doesn't really have anything too weird on it, but do watch out that your PCB house does the plated slots for the headphone jack correctly. The DRC rules are set for tented vias - these are preferable for aesthetics, but are otherwise not required.
 ## License
-The schematic and PCB layout are licensed under CC BY-NC-SA 4.0. You are free to build this project for yourself or friends, but please do not sell it or misrepresent its origin. If you are interested in selling assembled players, please contact hello@kunoichilabs.dev
+The schematic, PCB, and baseplate are licensed under CC BY-NC-SA 4.0. You are free to build this project for yourself or friends, but please do not sell it or misrepresent its origin. If you are interested in selling assembled players, please contact hello@kunoichilabs.dev
