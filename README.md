@@ -5,6 +5,8 @@
 [Click here for the assembly guide.](https://git.agiri.ninja/natalie/MegaGRRL_Desktop/wikis/Assembly-guide) Bill of materials can be found [here](https://git.agiri.ninja/natalie/MegaGRRL_Desktop/wikis/BOM)
 ## Firmware flashing/changes
 The portable and desktop MegaGRRL versions share a single codebase, contained in the [normal MegaGRRL repo](https://git.agiri.ninja/natalie/megagrrl). Before compiling, `main/hal.h` must be edited to specify that the desktop version is built. More details on this are available in the readme.
+
+A simplified flashing guide is available for Windows users [here](https://git.agiri.ninja/snippets/3).
 ## PCB manufacturing considerations
 The board doesn't really have anything too weird on it, but do watch out that your PCB house does the plated slots for the headphone jack correctly. The DRC rules are set for tented vias - these are preferable for aesthetics, but are otherwise not required.
 ## License
