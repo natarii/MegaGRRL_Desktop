@@ -8,7 +8,7 @@ The portable and desktop MegaGRRL versions share a single codebase, contained in
 
 A simplified flashing guide is available for Windows users [here](https://git.agiri.ninja/snippets/3).
 ## PCB manufacturing considerations
-The board doesn't really have anything too weird on it, but do watch out that your PCB house does the plated slots for the headphone jack correctly. The DRC rules are set for tented vias - these are preferable for aesthetics, but are otherwise not required.
+The board doesn't really have anything too weird on it, but do watch out that your PCB house does the plated slots for the headphone jack correctly. The DRC rules are set for tented vias - these are preferable for aesthetics, but are otherwise not required. Please note if exporting your own gerbers that the art for the top and bottom of the PCB are on layers 200 (top) and 201 (bottom). Pre-exported gerbers for JLCPCB can be found in the `gerbers/` directory.
 ## 3D Printing
 `mgd_base.stl` is an STL file for a 3D-printable baseplate for the MegaGRRL Desktop board. This provides a nice flat bottom surface and also supports the PCB underneath areas that undergo flexing (buttons, IC sockets). Please note that this was designed in mil, so in most slicers you will need to resize this to 2.54% to get it in millimeters. The original OpenSCAD source file is also available. 100% infill is recommended, and printing with a brim may help bed adhesion. Supports are needed due to the recessed screw holes.
 ## License
