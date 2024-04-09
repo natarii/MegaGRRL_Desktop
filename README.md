@@ -12,7 +12,7 @@ The board is a fairly standard 2-layer board. Please ensure that your PCB manufa
 ## 3D Printing
 `mgd_base.stl` is an STL file for a 3D-printable baseplate for the MegaGRRL Desktop board. This provides a nice flat bottom surface and also supports the PCB underneath areas that undergo flexing (buttons, IC sockets). The original OpenSCAD source file is also available. 100% infill is recommended, and printing with a brim may help bed adhesion. Supports are needed due to the recessed screw holes. **The STL and SCAD files have recently been updated to be sized in mm instead of mil.** Previously they required scaling before printing, but this should no longer be required. If you are using a paid 3D printing service, please double-check the size before ordering!
 ## License
-The schematic, PCB, and baseplate are licensed under CC BY-NC-SA 4.0. You are free to build this project for yourself or friends, but please do not sell it or misrepresent its origin. If you are interested in manufacturing players for sale, please contact hello@kunoichilabs.dev
+The schematic, PCB, and baseplate are licensed under CERN-OHL-S v2.
 ## Beware Fake Chips!
 
 [WIP guide on detecting fake chips](https://git.agiri.ninja/natalie/MegaGRRL_Desktop/-/wikis/Identifying-fake-YM2612s)
